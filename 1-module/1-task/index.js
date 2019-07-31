@@ -5,9 +5,7 @@
  * @returns {number}
  */
 
-function pow() {
-  const m = +prompt('Введите число.', 3);
-  const n = +prompt('Введите степень.', 3);
+function pow(m, n) {
   let result = 1;
 
   if ((Math.round(m) === m) && (Math.round(n) === n)) {
@@ -15,7 +13,5 @@ function pow() {
       result *= m;
     }
   }
-  return alert(result);
+  return result;
 }
-
-pow();
