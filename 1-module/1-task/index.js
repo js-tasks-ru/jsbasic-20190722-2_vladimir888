@@ -6,13 +6,13 @@
  */
 
 function pow() {
-  const x = +prompt('Введите число.', 3);
+  const m = +prompt('Введите число.', 3);
   const n = +prompt('Введите степень.', 3);
   let result = 1;
 
-  if ((Math.round(x) === x) && (Math.round(n) === n)) {
+  if ((Math.round(m) === m) && (Math.round(n) === n)) {
     for (let i = 0; i < n; i += 1) {
-      result *= x;
+      result *= m;
     }
   }
   return alert(result);
