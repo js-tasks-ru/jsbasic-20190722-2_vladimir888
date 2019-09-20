@@ -13,6 +13,7 @@
  *
  * @constructor
  */
+
 class ClearedTable {
   constructor(data) {
     this.el = document.createElement('table');
